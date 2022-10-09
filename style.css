@@ -1,0 +1,18 @@
+body {
+    background-image: url("https://64.media.tumblr.com/28d0231a25fc8a7ee02a9081251c47bf/tumblr_nuxz3ukZ7r1qk9nv0o2_500.pnj");
+    background-repeat: repeat;
+  }
+
+  div{
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  .jumbotron{
+    color: black;
+    background-color:#f3e6af;
+    border-radius: 6px;
+    margin: 10px auto;
+    margin: 10px 10px 10px 10px;
+  border: 5px solid black;
+   
+    }

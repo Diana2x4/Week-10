@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotta Catch 'em all!</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+<br>
+
+<!-- jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-4">Pokemon Card List</h1>
+    <p class="lead">Use this site to help keep track of your current collection!</p>
+  </div>
+
+<!-- form -->
+
+  <div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="new-pulled-date">Date Pulled</label>
+                    <input type="date" class="form-control" id="new-pulled-date">
+                </div>
+            </div>
+        </div>
+
+        <!-- new row -->
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="new-name">Name</label>
+                    <input type="text" class="form-control" id="new-name" placeholder="Name">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="new-task">Type</label>
+                    <input type="text" class="form-control" id="new-Type" placeholder="Type">
+                </div>
+            </div>
+    </div>
+
+    <!-- new row -->
+
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="new-task">Set</label>
+                    <input type="text" class="form-control" id="new-Set" placeholder="Set">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="new-task">Number</label>
+                    <input type="text" class="form-control" id="new-Number" placeholder="Number">
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- button -->
+        <div><button id="add" class="btn btn-dark from-control">Add</button></div>
+    
+</div>
+<table id="list" class="table table-light table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Pulled Date</th>
+        <th>Pokemon Type</th>
+        <th>Card Set</th>
+        <th>Number</th>
+        <th>Delete</th>
+    </tr>
+</table>
+
+<script src="index.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>  
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
+</body>
+</html>
